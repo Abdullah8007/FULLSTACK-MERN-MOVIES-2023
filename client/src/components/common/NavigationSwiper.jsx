@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { Navigation, Pagination } from "swiper";
+// import { Navigation, Pagination } from "swiper";
 import { Swiper } from "swiper/react";
 
 const NavigationSwiper = ({ children }) => {
@@ -29,7 +29,7 @@ const NavigationSwiper = ({ children }) => {
         grabCursor={true}
         pagination={{ clickable: true }}
         navigation={true}
-        modules={[Navigation, Pagination]}
+        // modules={[Navigation, Pagination]}
         style={{ width: "100%", height: "max-content" }}
       >
         {children}

@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroSlide from '../components/common/HeroSlide';
-import tmdbConfigs from "../api/configs/tmdb.configs";
+import tmdbConfigs from "../api/configs/tmdb.cofigs";
 import { Box } from '@mui/material';
 import uiConfigs from "../configs/ui.configs";
 import Container from "../components/common/Container";

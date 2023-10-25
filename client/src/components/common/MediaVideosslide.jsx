@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { useEffect, useRef } from "react";
 import { SwiperSlide } from "swiper/react";
-import tmdbConfigs from "../../api/configs/tmdb.configs";
+import tmdbConfigs from "../../api/configs/tmdb.cofigs";
 import NavigationSwiper from "./NavigationSwiper";
 
 const MediaVideo = ({ video }) => {

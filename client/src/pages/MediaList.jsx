@@ -3,7 +3,7 @@ import { Box, Button, Stack, Typography } from "@mui/material";
 import { useEffect, useState, useMemo } from "react";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
-import tmdbConfigs from "../api/configs/tmdb.configs";
+import tmdbConfigs from "../api/configs/tmdb.cofigs";
 import mediaApi from "../api/modules/media.api";
 import uiConfigs from "../configs/ui.configs";
 import HeroSlide from "../components/common/HeroSlide";

@@ -14,7 +14,7 @@ import Container from "../components/common/Container";
 import ImageHeader from "../components/common/ImageHeader";
 
 import uiConfigs from "../configs/ui.configs";
-import tmdbConfigs from "../api/configs/tmdb.configs";
+import tmdbConfigs from "../api/configs/tmdb.cofigs";
 import mediaApi from "../api/modules/media.api";
 import favoriteApi from "../api/modules/favorite.api";
 
@@ -23,7 +23,7 @@ import { setAuthModalOpen } from "../redux/features/authModalSlice";
 import { addFavorite, removeFavorite } from "../redux/features/userSlice";
 
 import CastSlide from "../components/common/CastSlide";
-import MediaVideosSlide from "../components/common/MediaVideosSlide";
+import MediaVideosSlide from "../components/common/MediaVideosslide";
 import BackdropSlide from "../components/common/BackdropSlide";
 import PosterSlide from "../components/common/PosterSlide";
 import RecommendSlide from "../components/common/RecommendSlide";

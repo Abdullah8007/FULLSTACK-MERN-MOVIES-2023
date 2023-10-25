@@ -2,7 +2,7 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import tmdbConfigs from "../../api/configs/tmdb.configs";
+import tmdbConfigs from "../../api/configs/tmdb.cofigs";
 import uiConfigs from "../../configs/ui.configs";
 import { routesGen } from "../../routes/routes";
 import FavoriteIcon from "@mui/icons-material/Favorite";

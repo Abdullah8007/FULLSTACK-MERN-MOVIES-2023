@@ -14,7 +14,7 @@ import uiConfigs from "../../configs/ui.configs";
 
 import CircularRate from "./CircularRate";
 
-import tmdbConfigs from "../../api/configs/tmdb.configs";
+import tmdbConfigs from "../../api/configs/tmdb.cofigs";
 import genreApi from "../../api/modules/genre.api";
 import mediaApi from "../../api/modules/media.api";
 

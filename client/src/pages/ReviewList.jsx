@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
-import tmdbConfigs from "../api/configs/tmdb.configs";
+import tmdbConfigs from "../api/configs/tmdb.cofigs";
 import reviewApi from "../api/modules/review.api";
 import Container from "../components/common/Container";
 import uiConfigs from "../configs/ui.configs";
