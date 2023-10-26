@@ -27,4 +27,8 @@ mongoose.connect(process.env.MONGODB_URL).then(() => {
 }).catch((err) => {
     console.log({ err });
     process.exit(1);
-})
+});
+
+if (process.env.NODE_ENV = "production") {
+    app.use(express.static("client/build"));
+}
