@@ -99,11 +99,11 @@ Follow these steps to set up the project locally:
 
 ## Usage
 
-**Home Page**: Browse the list of movies.
-**Search**: Use the search bar to find movies by title or genre.
-**Movie Details**: Click on a movie to view its details.
-**Authentication**: Sign up or log in to access protected features like favorites.
-**Favorites**: Add movies to your favorites list (requires login).
+- **Home Page**: Browse the list of movies.
+- **Search**: Use the search bar to find movies by title or genre.
+- **Movie Details**: Click on a movie to view its details.
+- **Authentication**: Sign up or log in to access protected features like favorites.
+- **Favorites**: Add movies to your favorites list (requires login).
 
 ---
 
@@ -136,13 +136,13 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgments
 
-TMDB API for providing movie data.
+- TMDB API for providing movie data.
 
-React and Node.js for building the application.
+- React and Node.js for building the application.
 
-Tailwind CSS for styling the frontend.
+- Tailwind CSS for styling the frontend.
 
-Vite for fast frontend development.
+- Vite for fast frontend development.
 
 ---
 
