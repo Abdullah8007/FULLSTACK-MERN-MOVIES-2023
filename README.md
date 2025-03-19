@@ -115,9 +115,43 @@ Follow these steps to set up the project locally:
 **Authentication**: Sign up or log in to access protected features like favorites.
 **Favorites**: Add movies to your favorites list (requires login).
 
+## Contributing
+
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository.
+   
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   
+3. Commit your changes:
+   ```bash
+   git commit -m "Add some feature"
+
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+### TMDB API for providing movie data.
+
+### React and Node.js for building the application.
+
+### Tailwind CSS for styling the frontend.
+
+### Vite for fast frontend development.
+
 ## Folder Structure
 Here’s the full tree structure of the project:
-      ```shell
+   ```bash
       FULLSTACK-MERN-MOVIES-2023/
       ├── backend/ ## Backend code (Node.js, Express, MongoDB)
       │ ├── config/ ## Configuration files
