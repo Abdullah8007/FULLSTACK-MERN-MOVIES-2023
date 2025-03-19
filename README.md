@@ -117,63 +117,63 @@ Follow these steps to set up the project locally:
 
 ## Folder Structure
 Here’s the full tree structure of the project:
-```cmd
+```shell
 FULLSTACK-MERN-MOVIES-2023/
-├── backend/ # Backend code (Node.js, Express, MongoDB)
-│ ├── config/ # Configuration files
-│ │ └── db.js # Database connection setup
-│ ├── controllers/ # Route controllers
-│ │ ├── authController.js # Authentication logic
-│ │ ├── movieController.js # Movie-related logic
-│ │ └── userController.js # User-related logic
-│ ├── middleware/ # Custom middleware
-│ │ └── authMiddleware.js # Authentication middleware
-│ ├── models/ # MongoDB models
-│ │ ├── Movie.js # Movie schema
-│ │ └── User.js # User schema
-│ ├── routes/ # API routes
-│ │ ├── authRoutes.js # Authentication routes
-│ │ ├── movieRoutes.js # Movie-related routes
-│ │ └── userRoutes.js # User-related routes
-│ ├── utils/ # Utility functions
-│ │ └── errorHandler.js # Error handling utility
-│ ├── .env # Environment variables
-│ ├── .gitignore # Files to ignore in Git
-│ └── server.js # Entry point for the backend
-├── frontend/ # Frontend code (React)
-│ ├── public/ # Static assets
-│ │ ├── index.html # Main HTML file
-│ │ └── favicon.ico # Favicon
-│ ├── src/ # React source code
-│ │ ├── assets/ # Static assets (images, icons, etc.)
-│ │ ├── components/ # Reusable components
-│ │ │ ├── Header.jsx # Header component
-│ │ │ ├── MovieCard.jsx # Movie card component
-│ │ │ └── SearchBar.jsx # Search bar component
-│ │ ├── pages/ # Page components
-│ │ │ ├── HomePage.jsx # Home page
-│ │ │ ├── MovieDetail.jsx # Movie details page
-│ │ │ ├── Favorites.jsx # Favorites page
-│ │ │ └── SearchResults.jsx # Search results page
-│ │ ├── redux/ # Redux state management
-│ │ │ ├── slices/ # Redux slices
-│ │ │ │ ├── authSlice.js # Authentication slice
-│ │ │ │ └── movieSlice.js # Movie slice
-│ │ │ └── store.js # Redux store
-│ │ ├── services/ # API services
-│ │ │ └── api.js # Axios instance and API calls
-│ │ ├── App.jsx # Main application component
-│ │ ├── main.jsx # Entry point for React
-│ │ └── routes.jsx # Application routes
-│ ├── .env # Frontend environment variables
-│ ├── .gitignore # Files to ignore in Git
-│ ├── package.json # Frontend dependencies
-│ └── vite.config.js # Vite configuration
-├── screenshots/ # Screenshots for the README
-│ ├── home-page.png # Home page screenshot
-│ ├── movie-details.png # Movie details screenshot
-│ └── search.png # Search functionality screenshot
-├── .gitignore # Global .gitignore file
-├── LICENSE # License file
-├── package.json # Root package.json (if using a monorepo setup)
+├── backend/ ## Backend code (Node.js, Express, MongoDB)
+│ ├── config/ ## Configuration files
+│ │ └── db.js ## Database connection setup
+│ ├── controllers/ ## Route controllers
+│ │ ├── authController.js ## Authentication logic
+│ │ ├── movieController.js ## Movie-related logic
+│ │ └── userController.js ## User-related logic
+│ ├── middleware/ ## Custom middleware
+│ │ └── authMiddleware.js ## Authentication middleware
+│ ├── models/ ## MongoDB models
+│ │ ├── Movie.js ## Movie schema
+│ │ └── User.js ## User schema
+│ ├── routes/ ## API routes
+│ │ ├── authRoutes.js ## Authentication routes
+│ │ ├── movieRoutes.js ## Movie-related routes
+│ │ └── userRoutes.js ## User-related routes
+│ ├── utils/ ## Utility functions
+│ │ └── errorHandler.js ## Error handling utility
+│ ├── .env ## Environment variables
+│ ├── .gitignore ## Files to ignore in Git
+│ └── server.js ## Entry point for the backend
+├── frontend/ ## Frontend code (React)
+│ ├── public/ ## Static assets
+│ │ ├── index.html ## Main HTML file
+│ │ └── favicon.ico ## Favicon
+│ ├── src/ ## React source code
+│ │ ├── assets/ ## Static assets (images, icons, etc.)
+│ │ ├── components/ ## Reusable components
+│ │ │ ├── Header.jsx ## Header component
+│ │ │ ├── MovieCard.jsx ## Movie card component
+│ │ │ └── SearchBar.jsx ## Search bar component
+│ │ ├── pages/ ## Page components
+│ │ │ ├── HomePage.jsx ## Home page
+│ │ │ ├── MovieDetail.jsx ## Movie details page
+│ │ │ ├── Favorites.jsx ## Favorites page
+│ │ │ └── SearchResults.jsx ## Search results page
+│ │ ├── redux/ ## Redux state management
+│ │ │ ├── slices/ ## Redux slices
+│ │ │ │ ├── authSlice.js ## Authentication slice
+│ │ │ │ └── movieSlice.js ## Movie slice
+│ │ │ └── store.js ## Redux store
+│ │ ├── services/ ## API services
+│ │ │ └── api.js ## Axios instance and API calls
+│ │ ├── App.jsx ## Main application component
+│ │ ├── main.jsx ## Entry point for React
+│ │ └── routes.jsx ## Application routes
+│ ├── .env ## Frontend environment variables
+│ ├── .gitignore ## Files to ignore in Git
+│ ├── package.json ## Frontend dependencies
+│ └── vite.config.js ## Vite configuration
+├── screenshots/ ## Screenshots for the README
+│ ├── home-page.png ## Home page screenshot
+│ ├── movie-details.png ## Movie details screenshot
+│ └── search.png ## Search functionality screenshot
+├── .gitignore ## Global .gitignore file
+├── LICENSE ## License file
+├── package.json ## Root package.json (if using a monorepo setup)
 └── README.md # Project README (you are here!)
