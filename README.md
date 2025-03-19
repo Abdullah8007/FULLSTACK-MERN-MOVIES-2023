@@ -79,13 +79,12 @@ Follow these steps to set up the project locally:
    cd FULLSTACK-MERN-MOVIES-2023
 
 3. Install dependencies for both frontend and backend:
-   # Install backend dependencies
    ```bash
+   # Install backend dependencies
    cd backend
    npm install
 
-  # Install frontend dependencies
-   ```bash
+   # Install frontend dependencies
    cd ../frontend
    npm install
 
@@ -95,3 +94,26 @@ Follow these steps to set up the project locally:
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret_key
    PORT=5000
+   
+5. Start the backend server:
+   ```bash
+   cd backend
+   npm start
+
+6. Start the frontend development server:
+   ```bash
+   cd ../frontend
+   npm run dev
+
+7. Open your browser and navigate to http://localhost:5173 to view the application.
+
+## Usage
+
+**Home Page**: Browse the list of movies.
+**Search**: Use the search bar to find movies by title or genre.
+**Movie Details**: Click on a movie to view its details.
+**Authentication**: Sign up or log in to access protected features like favorites.
+**Favorites**: Add movies to your favorites list (requires login).
+
+## Folder Structure
+
