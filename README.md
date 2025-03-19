@@ -19,23 +19,11 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for browsing an
 
 ---
 
-## Screenshots
-
-### Home Page
-![Home Page](./screenshots/home-page.png)
-
-### Movie Details
-![Movie Details](./screenshots/movie-details.png)
-
-### Search Functionality
-![Search](./screenshots/search.png)
-
----
 
 ## Live Demo
 
 Check out the live demo of the project:  
-👉 [Live Demo](https://your-project-url.vercel.app)
+👉 [MovieMetropolis](https://movie-metropolis.vercel.app)
 
 ---
 
@@ -107,6 +95,8 @@ Follow these steps to set up the project locally:
 
 7. Open your browser and navigate to http://localhost:5173 to view the application.
 
+---
+
 ## Usage
 
 **Home Page**: Browse the list of movies.
@@ -114,6 +104,8 @@ Follow these steps to set up the project locally:
 **Movie Details**: Click on a movie to view its details.
 **Authentication**: Sign up or log in to access protected features like favorites.
 **Favorites**: Add movies to your favorites list (requires login).
+
+---
 
 ## Contributing
 
@@ -135,21 +127,27 @@ Contributions are welcome! Follow these steps to contribute:
 
 5. Open a pull request.
 
-## License
+---
 
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
 
 ## Acknowledgments
 
-### TMDB API for providing movie data.
+TMDB API for providing movie data.
 
-### React and Node.js for building the application.
+React and Node.js for building the application.
 
-### Tailwind CSS for styling the frontend.
+Tailwind CSS for styling the frontend.
 
-### Vite for fast frontend development.
+Vite for fast frontend development.
+
+---
 
 ## Folder Structure
+
 Here’s the full tree structure of the project:
    ```bash
       FULLSTACK-MERN-MOVIES-2023/
