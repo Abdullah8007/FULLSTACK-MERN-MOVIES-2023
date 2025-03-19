@@ -117,7 +117,7 @@ Follow these steps to set up the project locally:
 
 ## Folder Structure
 Here’s the full tree structure of the project:
-
+```cmd
 FULLSTACK-MERN-MOVIES-2023/
 ├── backend/ # Backend code (Node.js, Express, MongoDB)
 │ ├── config/ # Configuration files
