@@ -93,7 +93,7 @@ Follow these steps to set up the project locally:
    cd ../frontend
    npm run dev
 
-7. Open your browser and navigate to http://localhost:5173 to view the application.
+7. Open your browser and navigate to http://localhost:127.0.0.1 to view the application.
 
 ---
 
