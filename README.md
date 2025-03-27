@@ -65,16 +65,15 @@ Follow these steps to set up the project locally:
 2. Navigate to the project directory:
    ```bash
    cd FULLSTACK-MERN-MOVIES-2023
+   npm install -g yarn
 
 3. Install dependencies for both frontend and backend:
    ```bash
    # Install backend dependencies
-   cd backend
-   npm install
+   
 
    # Install frontend dependencies
-   cd ../frontend
-   npm install
+   
 
 4. Set up environment variables:
    Create a .env file in the backend folder and add the following:
@@ -85,13 +84,13 @@ Follow these steps to set up the project locally:
    
 5. Start the backend server:
    ```bash
-   cd backend
-   npm start
+   cd server
+   yarn start
 
 6. Start the frontend development server:
    ```bash
-   cd ../frontend
-   npm run dev
+   cd client   # In another Terminal
+   yarn start
 
 7. Open your browser and navigate to http://localhost:127.0.0.1 to view the application.
 
